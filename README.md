@@ -1,50 +1,33 @@
-# React-Redux-Saga Boilerplate
+# Single Cell Portal user interface
 
-[![Build Status](https://travis-ci.org/gilbarbara/react-redux-saga-boilerplate.svg?branch=master)](https://travis-ci.org/gilbarbara/react-redux-saga-boilerplate) [![Dependencies](https://david-dm.org/gilbarbara/react-redux-saga-boilerplate.svg)](https://david-dm.org/gilbarbara/react-redux-saga-boilerplate) [![Maintainability](https://api.codeclimate.com/v1/badges/eb66aa0049fa03acbbf3/maintainability)](https://codeclimate.com/github/gilbarbara/react-redux-saga-boilerplate/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/eb66aa0049fa03acbbf3/test_coverage)](https://codeclimate.com/github/gilbarbara/react-redux-saga-boilerplate/test_coverage)
+Based off [React-Redux-Saga Boilerplate](https://github.com/gilbarbara/react-redux-saga-boilerplate)
 
-[Demo](https://redux-saga.react-boilerplate.com/)
+## Install
 
-### Provides
+First, install NPM if you haven't already:
 
-- react ^16.x
-- react-router 4.x
-- react-helmet 5.x
-- styled-components 4.x
-- redux 4.x
-- redux-saga 0.16.x
-- redux-persist 5.x
+`brew install npm`
 
-### Development
+Clone this repo and `cd` into it. Then install `scp-ui` like so:
 
-- webpack-dev-server 3.x
-- react-hot-loader 4.x
-- redux-devtools (with browser plugin)
+`npm install .`
+
+## Develop
 
 `npm start`
 
-### Building
-
-- webpack 4.x
-- babel 7.x
+## Build
 
 `npm run build`
 
-### Code Quality
-
-- eslint 5.x
-- stylelint 9.x
+## Lint
 
 `npm run lint` / `npm run lint:styles`
 
-### Unit Testing
-
-- jest 23.x
-- enzyme 3.x
+## Test
 
 `npm test`
 
-### End 2 End Testing
-
-- cypress 3.0.x
+## End 2 End Testing
 
 `npm run test:e2e`
