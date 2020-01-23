@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Github from 'containers/GitHub';
+// import Github from 'containers/GitHub';
+import FiltersList from 'containers/FiltersList';
 
 import { Box, Container, Heading, Link, Paragraph, Screen, Text, utils } from 'styled-minimal';
 
@@ -28,7 +29,7 @@ const Private = () => (
           <i>*Just to have some requests in the sagas...</i>
         </Text>
       </Box>
-      <Github />
+      <FiltersList />
     </Container>
   </Screen>
 );
